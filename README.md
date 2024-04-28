@@ -21,6 +21,9 @@ CPU temp = 49.93 deg C.
 
 The project uses the INA226 Bi-Directional Current and Power Monitor breakout board, found on Amazon and other places.  The script currently assumes a 3 cell Li-Ion battery so the voltage cutoff is 3.5v per cell , 10.5 volts.  This can be changed in the script `monitor2.py`.
 
+## Hardware 
+Schematic of overall power system and the Eaglecad files for the power on/off board can be found on Hackaday: [Battery Power System for Raspberry Pi](https://hackaday.io/project/188675/gallery#86913b8ea2ba7e0248ed677a163f5909)
+
 ## Installation and Configuration
 
 Edit `/boot/config.txt` to turn on the i2c interface by adding this line:
